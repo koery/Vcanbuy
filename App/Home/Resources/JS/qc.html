@@ -1,0 +1,366 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="../../css/style.css"/>
+<script src="qc.js"></script>
+</head>
+<body>
+<div style="width:99%;">
+    	<div style="float:left;"><img src="../../images/YourSender.gif"/></div>
+		<div style="float:left;">
+           <ul class="nav">
+                <li ><a href="http://www.itage.cn/vcb/item/login.php" target=_blank>ǰ̨ģ��</a></li>
+
+                <li  class="zuoyi "><A HREF="../users/us_index">�û�����</A></li>
+
+<!--
+<A HREF="../app/users/y_users_login_h2" target=_blank>ǰ̨�û���¼</A><br><br>
+<A HREF="../app/orders/or_index" target=_blank>�������(����)</A><br><br>
+-->
+
+                <li class="zuoyi"><A HREF="../orders/y_order_list" >�������</A></li>
+
+                <li class="zuoyi "><A HREF="../purchase/pu_my" >�ɹ���</A></li>
+
+                <li class="zuoyi "><A HREF="../pays/pay_list">֧��</A></li>
+                <li class="zuoyi  activeli"><A HREF="../warehouse/wa_index">����</A></li>
+
+
+
+
+
+
+
+                <li ><a href="../../home/passwd.php">�ҵ���Ϣ</a></li>
+
+
+           </ul>
+		</div>
+    	<div  style="float:right;">
+          <a href="?lang=cn&express_no=778543298050&" class="chinaban"><img src="../../images/Chinese.jpg" width="25" height="17" /></a>
+          <a href="?lang=th&express_no=778543298050&" class="taiban"><img src="../../images/Thailand.jpg" width="25" height="17" /></a>
+          <a href="?lang=en&express_no=778543298050&" class="taiban"><img src="../../images/English.jpg" width="25" height="17" /></a><br>
+		  hyd,���Ƕ�          <a href="../../home/logout.php" class="tuichu">[�˳�]</a>
+     	</div>
+</div>
+
+<div id="shows0" style="clear:both;border:0px;"></div>
+
+
+<div class="navcont"> 
+<div class="nav2" style="float:left;"> 
+      <ul >
+
+                    	<li>�й�</li>
+                    	<li><a href="y_packages_sign">ǩ��</a></li>
+                    	<li><a href="qc">QC�ʼ�</a></li>
+<!--
+                    	<li><a href="y_out_list">ԭ����</a></li>
+-->
+                    	<li><a href="package_out_check">��������</a></li>
+                    	<li><a href="package_out_box_up">�������</a></li>
+
+                    	<li><a href="y_out_list_big">�ϵ�(����)</a></li>
+                    	<li><a href="to_ctw">��������</a></li>		
+                    	<li>
+                        	<dl >
+                            	<dt><a href="y_box">�й�����</a></dt>
+							  <ul>
+                            	<li><a href="y_box?goods_status2=10000">δ��</a></li>
+                            	<li><a href="y_box?goods_status2=400000">�ѷ���</a></li>
+							  </ul>
+                            </dl>
+                        </li>
+                    	<li>
+                        	<dl>
+                            	<dt><a href="packages_list">������ϸ</a></dt>
+							  <ul>
+                    	    	<li><a href="packages_list?status=300000">��QC����</a></li>	
+                    	    	<li><a href="package_out">QC���װ�����</a></li>	
+                    	    	<li><a href="packages_list?status=380000">��װ���������</a></li>	
+                    	    	<li><a href="packages_list?status=400000">�ѷ������б�</a></li>	
+                    	    	<li><a href="packages_list?status=290000">���հ���</a></li>	
+                    	    	<li><a href="packages_list?status=320000">�����쳣����</a></li>	
+                    	    	<li><a href="packages_no_master">��������</a></li>	
+                    	    	<li><a href="packages_list?status=-10000">��ʧ����</a></li>	
+                    	    	<li><a href="wh_refund_list?status_goods2=60000">�˻�����</a></li>	
+                    	    	<li><a href="packages_wait_sign">��ǩ�հ���</a></li>	
+							  </ul>
+                            </dl>
+                        </li>
+      </ul>
+</div>
+<div  class="nav2" style="float:right;"> 
+      <ul >
+                    	<li>̩��</li>
+                    	<li><a href="th_box_sign">����ǩ��</a></li>
+                    	<li><a href="th_box_open">����ɨ�����</a></li>	
+                    	<li><a href="th_packages_list?status=600000">��̩���ְ���</a></li>	
+                    	<li><a href="th_user_box">����װ��</a></li>
+                    	<li><a href="th_to_user">̩��������</a></li>		
+                    	<li>
+                        	<dl>
+                            	<dt><a href="th_box">̩������</a></dt>
+							  <ul>
+                            	<li><a href="th_box">���յ�</a></li>
+                            	<li><a href="th_box_new">δ��</a></li>
+                            	<li><a href="th_box_send">�Ѿ�����</a></li>
+							  </ul>
+                            </dl>
+                        </li>
+                    	<li><a href="th_packages_list?status=800000">̩�ѷ�������</a></li>	
+      </ul>
+</div>
+</div>
+<div id="shows0" style="clear:both;border:0px;"></div>
+<script language="JavaScript" type="text/jscript">
+function checkdata(a) {
+	//var item=document.getElementsByTagName("input"); 
+	var item=document.forms[a].elements;
+        //   alert(a);
+	 for(var i=0;i<item.length;i++)  
+     {  
+         if(item[i].type=="hidden" && item[i].id == "order_item_id")  
+         {  
+             var index = item[i].value;
+             //qc_qty
+             var received_qty =document.getElementById("received_qty_"+index);
+             if (received_qty.value==""){
+            	 document.getElementById("msg_order_item_qc_qty_"+index).style.display ="";
+            	 received_qty.focus();
+            	 return false;
+             }
+             else{
+            	 document.getElementById("msg_order_item_qc_qty_"+index).style.display ="none";
+             }
+
+             var qc_qty =document.getElementById("qc_qty_"+index);
+             if (qc_qty.value==""){
+            	 document.getElementById("msg_order_item_qc_qty_"+index).style.display ="";
+            	 qc_qty.focus();
+            	 return false;
+             }
+             else{
+            	 document.getElementById("msg_order_item_qc_qty_"+index).style.display ="none";
+             }
+
+             var in_qty =document.getElementById("in_qty_"+index);
+             if (in_qty.value==""){
+            	 document.getElementById("msg_order_item_qc_qty_"+index).style.display ="";
+            	 in_qty.focus();
+            	 return false;
+             }
+             else{
+            	 document.getElementById("msg_order_item_qc_qty_"+index).style.display ="none";
+             }
+
+             //status_qc
+             var status_qc =document.getElementById("order_item_status_qc_"+index);
+             if (status_qc.value==""){
+            	 document.getElementById("msg_order_item_status_qc_"+index).style.display ="";
+            	 return false;
+             }
+             else{
+            	 document.getElementById("msg_order_item_status_qc_"+index).style.display ="none";
+             }
+
+         }  
+          // alert(i);
+     }   
+	//return false;
+  	return true;
+}
+
+function status_qc(ctl,id){
+	var value;
+	if (ctl.value==""){
+		document.getElementById("span_qc_qty_"+id).style.display ="";
+		document.getElementById("status_qc_select_"+id).disabled="";
+		value = document.getElementById("status_qc_select_"+id).value;
+	}
+	else if (ctl.value=="100000"){
+		document.getElementById("span_qc_qty_"+id).style.display ="none";
+		document.getElementById("status_qc_select_"+id).disabled="disabled";
+		//value = document.getElementById("status_qc_select_"+id).value;
+		value = value =ctl.value;;
+	}
+	else{
+		document.getElementById("span_qc_qty_"+id).style.display ="";
+		document.getElementById("status_qc_select_"+id).disabled="disabled";
+		value =ctl.value;
+	}
+	document.getElementById("order_item_status_qc_"+id).value =value;
+}
+
+function status_qc_select(ctl,id){
+	document.getElementById("order_item_status_qc_"+id).value = ctl.value;
+}
+
+function qc_save(a){ 
+document.getElementById("actions"+a).value = "save";
+checkdata(a);
+if(checkdata(a))
+	{
+document.forms[a].submit();
+	}
+}
+function qc_in(a){
+document.getElementById("actions"+a).value = "in";
+//alert("in!");
+if(checkdata(a))
+	{
+document.forms[a].submit();
+	}
+}
+
+function to_div(a){ 
+	var divs=0;
+divs=document.getElementById("div").value;
+document.getElementById("div"+divs).style.display ="none";
+document.getElementById("div"+a).style.display ="";
+document.getElementById("div").value=a;
+}
+</script>
+
+
+<script language="JavaScript">
+function set_focus(){
+var a;
+a='';
+//document.form_s.express_no.focus();
+}
+//window.onload=set_focus;
+</script>
+
+<div align="center" style="color:#000;font-size:24px;">
+778543298050���ɹ�ID:496684<br><INPUT TYPE='hidden' NAME='div'  id='div' value='0'><div id='div0'  style='display:'><table border=1 cellspacing=0 cellpadding=0  width=92%><tr><td>�ɹ���</td><td>��ϸID</td><td>������</td><td>shop</td><td>image_url</td><td>product</td><td>audit_qty</td><td>qc_qty</td><td>status_qc</td><td>famous</td><td>spection</td><td>�ͷ���ע</td><td>qc_memo</td></tr><form method='POST' name='form0'  action='y_qc_saves' onsubmit='return checkdata(0)'><tr>
+<td>496684</td>
+<td><INPUT TYPE="hidden" NAME="order_item_id[]"  id ="order_item_id" VALUE="782406">782406</td>
+<td>126996</td>
+<td>˽�˶���clothes</td>
+<td><a href="http://item.taobao.com/item.htm?id=42428994875" target="_blank"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1JFNoFAXgXXXXXXXX_!!2-item_pic.png_180x180.jpg" width="60"/></a></td>
+<td><a href="http://item.taobao.com/item.htm?id=42428994875" target="_blank">styleonme�����������鶤������������ο�olѩ�ĳ���<br><br><font  color="0000ff">�ۺ�ɫPink ,S,</font></a></td>
+<td>��ˣ�1<br>�ɹ���1<br>������1</td>
+
+<td>�յ�:<input type="text" name="received_qty_782406" id ="received_qty_782406" class="input_int" size=4  value="1">
+<div>
+<span id="span_qc_qty_782406" style="display:none;color:#F00">
+  �ϸ�:<input type="text" name="qc_qty_782406" id ="qc_qty_782406" class="input_int" size=4  value="1"><br>
+  �����:<input type="text" name="in_qty_782406" id ="in_qty_782406" class="input_int" size=4  value="1"></span>
+
+	<span id="msg_order_item_qc_qty_782406" style="display:none;color:#F00">*����������</span>
+</div>	
+</td>
+<td width="220px">
+	<input type="radio" name="status_qc_782406" id="status_qc_782406" value="100000"  onclick="status_qc(this,782406)" checked/>����<br/>
+	<input type="radio" name="status_qc_782406" id="status_qc_782406" value="210000"  onclick="status_qc(this,782406)"/>���(ͬһ��Ʒ���)<br/>
+	<input type="radio" name="status_qc_782406" id="status_qc_782406" value="220000"  onclick="status_qc(this,782406)"/>���(��һ��Ʒ)<br/>
+	<input type="radio" name="status_qc_782406" id="status_qc_782406" value="230000"  onclick="status_qc(this,782406)"/>ȱ��(ͬһ��Ʒ)<br/>
+	<input type="radio" name="status_qc_782406" id="status_qc_782406" value="240000"  onclick="status_qc(this,782406)"/>��ɫ����<br/>
+	<input type="radio" name="status_qc_782406" id="status_qc_782406" value="250000"  onclick="status_qc(this,782406)"/>��ʽ����<br/>
+	<input type="radio" name="status_qc_782406" id="status_qc_782406" value="260000"  onclick="status_qc(this,782406)"/>����<br/>
+	
+	<input type="radio" name="status_qc_782406" id="status_qc_782406" value="" onclick="status_qc(this,782406)"/>����
+	<select name="status_qc_select_782406" id="status_qc_select_782406" disabled="disabled" onchange ="status_qc_select(this,782406)">
+		<option value="270000">��Ʒ����</option>
+		<option value="280000">Ʒ�Ʋ���</option>
+		<option value="290000">���ز���</option>
+		<option value="300000">�ߴ粻��</option>
+		<option value="310000">��������</option>
+		<option value="320000">���ʲ���</option>
+		<option value="330000">������ȱ��</option>
+		<option value="900000">������������</option>
+		<option value="910000">������������</option>
+		<option value="990000">��������</option>
+	</select>
+	<input type="hidden" name="order_item_status_qc_782406" id="order_item_status_qc_782406"  value="100000"/>
+	<div>
+		<span id="msg_order_item_status_qc_782406" style="display:none;color:#F00">��ѡ��status_qc</span>
+	</div>
+</td>
+<td width="120px">
+	<input type="radio" name="order_item_famous_782406" id="order_item_famous_782406" value="0"  checked/>�������� <br>
+ 	<input type="radio" name="order_item_famous_782406" id="order_item_famous_782406" value="famous"   />����
+ 	<div>
+		<span id="msg_order_item_famous_782406" style="display:none">��ѡ��famous</span>
+	</div><FONT COLOR=#FF0000>&nbsp;</FONT>
+</td>	
+ 
+<td width="120px">
+	<input type="radio" name="order_item_spection_782406" id="order_item_spection_782406" value="0"  checked/>�����̼��<br>
+ 	<input type="radio" name="order_item_spection_782406" id="order_item_spection_782406" value="1" />�̼��
+ 	<div>
+		<span id="msg_order_item_spection_782406" style="display:none;color:#F00">��ѡ��spection</span>
+	</div>
+ </td>	
+ <td><font color="#FF0000"></font><br>&nbsp;</td>	
+<td><textarea name="order_item_qc_memo_782406" id="order_item_qc_memo" ROWS="3" COLS="15"></textarea></td>	
+</tr>
+<tr>
+<td>496684</td>
+<td><INPUT TYPE="hidden" NAME="order_item_id[]"  id ="order_item_id" VALUE="782407">782407</td>
+<td>126996</td>
+<td>˽�˶���clothes</td>
+<td><a href="http://item.taobao.com/item.htm?id=42428994875" target="_blank"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1JFNoFAXgXXXXXXXX_!!2-item_pic.png_180x180.jpg" width="60"/></a></td>
+<td><a href="http://item.taobao.com/item.htm?id=42428994875" target="_blank">styleonme�����������鶤������������ο�olѩ�ĳ���<br><br><font  color="0000ff">�ۺ�ɫPink ,M,</font></a></td>
+<td>��ˣ�1<br>�ɹ���1<br>������1</td>
+
+<td>�յ�:<input type="text" name="received_qty_782407" id ="received_qty_782407" class="input_int" size=4  value="1">
+<div>
+<span id="span_qc_qty_782407" style="display:none;color:#F00">
+  �ϸ�:<input type="text" name="qc_qty_782407" id ="qc_qty_782407" class="input_int" size=4  value="1"><br>
+  �����:<input type="text" name="in_qty_782407" id ="in_qty_782407" class="input_int" size=4  value="1"></span>
+
+	<span id="msg_order_item_qc_qty_782407" style="display:none;color:#F00">*����������</span>
+</div>	
+</td>
+<td width="220px">
+	<input type="radio" name="status_qc_782407" id="status_qc_782407" value="100000"  onclick="status_qc(this,782407)" checked/>����<br/>
+	<input type="radio" name="status_qc_782407" id="status_qc_782407" value="210000"  onclick="status_qc(this,782407)"/>���(ͬһ��Ʒ���)<br/>
+	<input type="radio" name="status_qc_782407" id="status_qc_782407" value="220000"  onclick="status_qc(this,782407)"/>���(��һ��Ʒ)<br/>
+	<input type="radio" name="status_qc_782407" id="status_qc_782407" value="230000"  onclick="status_qc(this,782407)"/>ȱ��(ͬһ��Ʒ)<br/>
+	<input type="radio" name="status_qc_782407" id="status_qc_782407" value="240000"  onclick="status_qc(this,782407)"/>��ɫ����<br/>
+	<input type="radio" name="status_qc_782407" id="status_qc_782407" value="250000"  onclick="status_qc(this,782407)"/>��ʽ����<br/>
+	<input type="radio" name="status_qc_782407" id="status_qc_782407" value="260000"  onclick="status_qc(this,782407)"/>����<br/>
+	
+	<input type="radio" name="status_qc_782407" id="status_qc_782407" value="" onclick="status_qc(this,782407)"/>����
+	<select name="status_qc_select_782407" id="status_qc_select_782407" disabled="disabled" onchange ="status_qc_select(this,782407)">
+		<option value="270000">��Ʒ����</option>
+		<option value="280000">Ʒ�Ʋ���</option>
+		<option value="290000">���ز���</option>
+		<option value="300000">�ߴ粻��</option>
+		<option value="310000">��������</option>
+		<option value="320000">���ʲ���</option>
+		<option value="330000">������ȱ��</option>
+		<option value="900000">������������</option>
+		<option value="910000">������������</option>
+		<option value="990000">��������</option>
+	</select>
+	<input type="hidden" name="order_item_status_qc_782407" id="order_item_status_qc_782407"  value="100000"/>
+	<div>
+		<span id="msg_order_item_status_qc_782407" style="display:none;color:#F00">��ѡ��status_qc</span>
+	</div>
+</td>
+<td width="120px">
+	<input type="radio" name="order_item_famous_782407" id="order_item_famous_782407" value="0"  checked/>�������� <br>
+ 	<input type="radio" name="order_item_famous_782407" id="order_item_famous_782407" value="famous"   />����
+ 	<div>
+		<span id="msg_order_item_famous_782407" style="display:none">��ѡ��famous</span>
+	</div><FONT COLOR=#FF0000>&nbsp;</FONT>
+</td>	
+ 
+<td width="120px">
+	<input type="radio" name="order_item_spection_782407" id="order_item_spection_782407" value="0"  checked/>�����̼��<br>
+ 	<input type="radio" name="order_item_spection_782407" id="order_item_spection_782407" value="1" />�̼��
+ 	<div>
+		<span id="msg_order_item_spection_782407" style="display:none;color:#F00">��ѡ��spection</span>
+	</div>
+ </td>	
+ <td><font color="#FF0000"></font><br>&nbsp;</td>	
+<td><textarea name="order_item_qc_memo_782407" id="order_item_qc_memo" ROWS="3" COLS="15"></textarea></td>	
+</tr>
+<tr><td colspan=20><input type='hidden' name='qc' value='���Ƕ�'>QC:���Ƕ�<INPUT TYPE='hidden' NAME='packages_id'  id='packages_id' value='1457'><INPUT TYPE='hidden' NAME='purchase_id'  id='purchase_id' value='496684'><INPUT TYPE='hidden' NAME='website_id'  id='website_id' value='1'><INPUT TYPE='hidden' NAME='user_id'  id='user_id' value='1237155'><INPUT TYPE='hidden' NAME='order_id'  id='order_id' value='126996'><INPUT TYPE='hidden' NAME='category_id'  id='category_id' value='162116'><INPUT TYPE='hidden' NAME='express_company'  id='express_company' value=��ͨ���><INPUT TYPE='hidden' NAME='express_no'  id='express_no' value=778543298050><INPUT TYPE='hidden' NAME='actions'  id='actions0'  value='in'><INPUT TYPE='button' name='btn1'  style='width:100px;height:50px;font-size:30px;' VALUE=��� onclick='qc_in(0);'>&nbsp;&nbsp;<input type='button' name='btn2' style='width:100px;height:50px;font-size:30px;' value=���� onclick='qc_save(0);'>,��ͳ����&nbsp;<a href="qc_spare?purchase_id=496684&id=1457&express_no=">��QC��ֱ�ӳ���</a>&nbsp;
+ &nbsp;  �������2 &nbsp;  �ܷ�����<FONT COLOR=#009900>2</FONT></td ></tr></form></table></div>

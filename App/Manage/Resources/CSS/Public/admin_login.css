@@ -1,0 +1,43 @@
+@charset "utf-8";
+body,div,span,ul,li,a,img,input,select,option,textarea,p,h1,dl,dt,dd,h2,h3,h4,h6,ol,table,td,th,tr,tfoot,thead,tbody{margin:0;padding:0;list-style:none;border:none;}
+a{text-decoration:none;}
+body{font:12px "微软雅黑","宋体",Arial;background:url(../../Img/Public/global_bg.jpg) repeat;color:#444;}
+.clearfix:after{display:block;content:".";clear:both;font-size:0;height:0;visibility:hidden;}
+.login_body{width:500px;margin:0 auto;}
+.con_title{font-size:16px;font-weight:bold;padding-top:30px;border-top:1px solid #4f6479;margin-top:170px;color:#fff;text-align:center;}
+.admin_items{padding-bottom:30px;border-bottom:1px solid #4f6479;padding-left:60px;padding-top:10px;}
+.admin_items li{width:420px;overflow:hidden;margin-top:20px;}
+.admin_items li span{height:40px;line-height:40px;color:#fff;width:60px;float:left;display:inline-block;position:relative;}
+.admin_items li span i{display:inline-block;height:20px;width:20px;position:absolute;}
+.admin_items li span.admin_name{background:#28b779;}
+.admin_items li span.admin_name i{background:url(../../Img/Public/user.png) no-repeat;top:13px;left:23px;}
+.admin_items li span.admin_psw{background:#ffb746;}
+.admin_items li span.admin_psw i{background:url(../../Img/Public/lock.png) no-repeat;top:14px;left:23px;}
+.admin_items li span.admin_verification{background:#FF46A1;}
+.admin_items li span.admin_verification i{background:url(../../Img/Public/help.png) no-repeat;top:13px;left:22px;}
+.admin_items li input{height:40px;line-height:40px;width:300px;float:left;padding-left:10px;}
+.admin_items li input.admin_verificate{width:150px;}
+.admin_items li span.code_image{width:150px;height:40px;float:left;display:inline-block;}
+.submit_btn{padding:30px 40px;}
+.submit_btn a{height:30px;color:#fff;line-height:30px;display:inline-block;width:80px;text-align:center;}
+.submit_btn a.right{background:#49AFCD;float:left;}
+.submit_btn a.once{background:#56B856;float:right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

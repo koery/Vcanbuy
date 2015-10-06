@@ -1,0 +1,15 @@
+/***********************************版权信息*/
+.w1200{width:1200px;margin:0 auto;}
+.foot{background:#FBFBFB;padding-bottom:10px;border-top:1px solid #dedddd;}
+.foot_wrap{padding-top:30px;}
+.foot_info{height:120px;}
+.info_text{float:left;width:270px;}
+.tel_icon{font-size:14px;font-family:Arial;color:#333;font-weight:600;background:url(../../Img/ImgIndex/tel24x17.png) no-repeat 0 2px;padding-left:32px;margin-bottom:3px;}
+.tel,.email{margin-left:32px;font-size:14px;color:#333;}
+.foot_link{float:left;margin-left:70px;}
+.company{float:left;margin-right:100px;}
+.company dt{color:#333;font-weight:600;padding-bottom:6px;}
+.company dd{line-height:22px;}
+.company dd a{color:#666;}
+.copyright{height:30px;color:#999;text-align:center;line-height:30px;}
+/**********版权信息*/

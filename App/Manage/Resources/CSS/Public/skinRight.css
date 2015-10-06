@@ -1,0 +1,32 @@
+@charset "utf-8";
+body,div,span,ul,li,a,img,input,select,option,textarea,p,h1,dl,dt,dd,h2,h3,h4,h6,ol,table,td,th,tr,tfoot,thead,tbody{margin:0;padding:0;list-style:none;border:none;}
+body {font:12px Arial, Helvetica, sans-serif;color: #000;background:#EEF2FB;}
+a{color: #000;text-decoration: none;}
+a:hover{text-decoration: none;}
+.con_public_up{height:29px;width:100%;}
+.upper_left_corner{width:17px;background:url(../../Img/Public/left-top-right.gif);float:left;height: 29px;display:inline-block;}
+.upper_right_corner{width:16px;background:url(../../Img/Public/nav-right-bg.gif);float:right;height: 29px;display:inline-block;margin-left:-9px;}
+.upper_center_corner{background:url(../../Img/Public/content-bg.gif) repeat-x;float:left;height:29px;width:98%;}
+.upper_center_corner h3{font-size:12px;width:75px;background:url(../../Img/Public/top_bt.jpg) no-repeat;color:#000;line-height:22px;padding-left:10px;padding-top:7px;}
+.con_public_center{width:100%;}
+.con_left_corner{width:17px;background:url(../../Img/Public/mail_leftbg.gif);float:left;display:inline-block;}
+.con_right_corner{width:16px;background:url(../../Img/Public/mail_rightbg.gif);float:right;display:inline-block;margin-left:-9px;}
+.con_center_corner{background:#f7f8f9;float:left;width:98%;}
+.main{text-align:center;line-height:30px;}
+.bottom_public_bottom{height:17px;width:100%;}
+.bottom_left_corner{width:17px;background:url(../../Img/Public/buttom_left2.gif);float:left;display:inline-block;height:17px;}
+.bottom_right_corner{width:16px;background:url(../../Img/Public/buttom_right2.gif);float:right;display:inline-block;margin-left:-9px;height:17px;}
+.bottom_center_corner{background:url(../../Img/Public/buttom_bgs.gif) repeat-x;float:left;width:98%;height:17px;}
+
+
+
+
+/*<!--#container {width: 182px;}
+h1 {width: 182px;height: 30px;font-size:12px;}
+h1 a {display: block;height: 30px;background: url(../../Img/Public/menu_bgS.gif) no-repeat;line-height: 30px;text-align: center;}
+.content{width: 182px;height: 26px;}
+.gradient{height:5px;}
+.MM li {line-height: 26px;color: #333333;height: 26px;width: 182px;}
+.MM a{line-height: 26px;text-align: center;display: block;height: 26px;width: 182px;background: url(../../Img/Public/menu_bg1.gif) no-repeat;}
+.MM a:hover {font-weight: bold;color: #006600;background: url(../../Img/Public/menu_bg2.gif) no-repeat;}
+-->*/

@@ -1,0 +1,4 @@
+.page ul{
+	list-style-type:none;
+}
+.page li{display:inline;margin-left:5px;}

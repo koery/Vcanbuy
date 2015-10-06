@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+/******侧边栏***/
+.ibar{position:fixed;width:40px;height:100%;top:0;right:0;z-index:9999;display:block;}
+.ibar_main_panel{height:100%;position:absolute;top:0;right:0;background:#444851;z-index:2;width:40px;}
+.ibar_center{position:absolute;top:50%;right:0;z-index:2;margin-top:-190px;}
+.ibar_center li{z-index:1;position:relative;}
+.ibar_center .ibar_login{height:38px;}
+.ibar_login a{display:block;height:38px;width:40px;background:#444851;position:relative;left:0;top:0;z-index:1;}
+.ibar_login i{background:url(../../Img/ImgSideBar/ibar_sprites_login.png) no-repeat;position:absolute;width:18px;height:19px;left:11px;top:9px;display:block;z-index:2;}
+.ibar_center .ibar_cart{height:133px;padding:10px 0 10px;}
+.ibar_cart a{display:block;height:133px;width:40px;position:relative;left:0;top:0;color:#fff;background:url(../../Img/ImgSideBar/ibar_sprites_line.png) no-repeat 7px 0px;z-index:1;}
+.ibar_cart i{background:url(../../Img/ImgSideBar/ibar_sprites_cart.png) no-repeat;position:absolute;width:23px;height:18px;left:10px;top:16px;display:block;z-index:2;}
+.cart_text{width:20px;color:#fff;margin:40px 0 0 15px;display:block;float:left;line-height:16px;}
+.cart_num{display:block;text-align:center;background:#FF4465;border-radius:50%;height:20px;line-height:20px;width:20px;margin:10px 0 0 10px;float:left;}
+.ibar_center .ibar_asset{height:38px;}
+.ibar_asset a.changeBg{display:block;height:38px;width:40px;position:relative;left:0;top:0;color:#fff;background:#444851;z-index:1;}
+.ibar_asset i{background:url(../../Img/ImgSideBar/ibar_sprites_recharge.png) no-repeat;position:absolute;width:25px;height:25px;left:7px;top:6px;display:block;z-index:2;}
+.ibar_bottom{position:absolute;right:0;z-index:1;bottom:50px;}
+.ibar_bottom li{height:38px;z-index:1;position:relative;}
+.ibar_client a{display:block;height:38px;width:40px;position:relative;left:0;top:0;color:#fff;z-index:1;background:#444851;}
+.ibar_client i{background:url(../../Img/ImgSideBar/ibar_sprites_client.png) no-repeat;position:absolute;width:15px;height:15px;left:10px;top:10px;display:block;}
+.ibar_toTop a{display:block;height:38px;width:40px;position:relative;left:0;top:0;color:#fff;z-index:1;background:#444851;}
+.ibar_toTop i{background:url(../../Img/ImgSideBar/ibar_sprites_top.png) no-repeat;position:absolute;width:18px;height:11px;left:10px;top:12px;display:block;}
+/*鼠标hover的时候移到每个li上面*/
+.ibar_main_panel ul li a.changeBg:hover{background:#FF4466;}
+.hover_tip{position:absolute;display:block;height:38px;width:92px;text-align:center;line-height:36px;top:0;left:-92px;background:#444851;color:#fff;z-index:2;}
+.hover_tip b{display:block;height:9px;width:5px;background:url(../../Img/ImgSideBar/hoverright.png) no-repeat;position:absolute;top:13px;right:-5px;}
+
+.ibar_login_box{height:208px;position:absolute;top:20px;right:40px;background:#fff;z-index:3;width:222px;border-radius:5px 0 0 5px;box-shadow:0px 1px 4px rgba(0,0,0,0.4);padding:12px 14px 26px 30px;display:none;}/*侧边栏的登录*/
+.ibar_rightarrow{position:absolute;display:block;height:9px;width:5px;background:url(../../Img/ImgSideBar/clickright.png) no-repeat;top:13px;right:-5px;}
+.ibar_closebtn{display:block;height:20px;background:url(../../Img/ImgSideBar/close.png) no-repeat right 0;}
+.ibar_unit{padding:4px 0 16px 0;}
+.unit_title{height:16px;line-height:16px;color:#333;font-size:14px;text-align:left;margin-bottom:5px;}
+.ibar_username{display:block;line-height:24px;width:208px;border:1px solid #ddd;height:24px;}
+.ibar_psw{display:block;line-height:24px;width:208px;border:1px solid #ddd;height:24px;font-family:Verdana, Geneva, sans-serif;font-size:12px;}
+.unit_tip{color:#f8a3a3;text-align:right;padding-right:6px;}
+.ibar_surebtn{display:inline-block;line-height:30px;width:130px;height:30px;background:#ff4465;color:#fff;font-family:"微软雅黑";font-size:16px;font-weight:500;text-align:center;margin-left:40px;}
+

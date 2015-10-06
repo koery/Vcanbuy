@@ -1,0 +1,13 @@
+@charset "utf-8";
+body,div,span,ul,li,a,img,input,select,option,textarea,p,h1,dl,dt,dd,h2,h3,h4,h6,ol,table,td,th,tr,tfoot,thead,tbody{margin:0;padding:0;list-style:none;border:none;}
+body {font:12px Arial, Helvetica, sans-serif;color: #000;background: #EEF2FB;}
+a{color: #000;text-decoration: none;}
+a:hover{text-decoration: none;}
+#container {width: 182px;}
+h1 {width: 182px;height: 30px;font-size:12px;}
+h1 a {display: block;height: 30px;background: url(../../Img/Public/menu_bgS.gif) no-repeat;line-height: 30px;text-align: center;}
+.content{width: 182px;height: 26px;}
+.gradient{height:5px;}
+.MM li {line-height: 26px;color: #333333;height: 26px;width: 182px;}
+.MM a{line-height: 26px;text-align: center;display: block;height: 26px;width: 182px;background: url(../../Img/Public/menu_bg1.gif) no-repeat;}
+.MM a:hover {font-weight: bold;color: #006600;background: url(../../Img/Public/menu_bg2.gif) no-repeat;}

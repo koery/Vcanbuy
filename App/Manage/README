@@ -1,0 +1,10 @@
+VcanBuy 前台数据
+
+目录结构
+
+Config：Home全局配置
+Controllers：控制器  从view接受数据，解释之后传递给model
+Footer:脚部文件
+Header:头部文件
+Models:模型 从controller接受数据，连接并操作数据库，
+Views:视图  从controller接受数据，显示给用户

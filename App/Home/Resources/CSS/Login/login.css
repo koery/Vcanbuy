@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,span,ul,li,a,img,input,select,option,textarea,p,h1,dl,dt,dd,h2,h3,h4,h6,ol{margin:0;padding:0;list-style:none;border:none;outline:none;}
+a{text-decoration:none;outline: none;}
+
+body{font:12px/1.6 tahoma,arial,sans-serif;color:#2a2a2a;}
+/* CSS Document版心900px; */
+#login_wrap{margin:0 auto;width:900px;padding:20px 0 60px;}
+.logo_img{display:inline-block;width:206px;height:54px;}
+.logo_con{height:500px;padding-top:50px;}
+.lg_banner{width:400px;padding:20px 0 0 40px;float:left;}
+.lg_banner1{display:block;width:400px;height:300px;overflow:hidden;}
+.lg_content{width:322px;border:1px solid #dcdcdc;float:right;padding:0 0 30px 38px;}
+.lg_mod{height:43px;line-height:42px;color:#333;font-size:14px;font-weight:700;margin-bottom:30px;}
+.error_tip{border:1px solid #ffd797;color:#ff5783;height:30px;line-height:30px;padding-left:40px;margin-bottom:10px;width:240px;background:url(../../Img/ImgLogin/ckzsew_16x16.png) no-repeat 13px 8px;}
+.lg_item{position:relative;margin-bottom:15px;}
+.lg_item1{margin-bottom:18px;height:50px;}
+.lg_icon{width:17px;height:14px;position:absolute;top:11px;left:16px;display:block;background:url(../../Img/ImgLogin/sckzsew_15x14.png) no-repeat;}
+.lg_input{width:240px;height:16px;line-height:16px;color:#999;border:1px solid #ccc;padding:9px 0 9px 40px;border-radius:3px;background:url(../../Img/ImgLogin/input_bg_sd.png) no-repeat;font-size:12px;font-family:Verdana;}
+.lg_item span{float:left;}
+.identifying{margin-left:22px;width:88px;}
+.identifying a{color:#999;line-height:14px;}
+.lg_psd{font-size:8px;}
+.lg_identify{width:106px;background-image:none;font-family:Verdana;}
+.lg_icon1{background:url(../../Img/ImgLogin/sckzsew_15x16.png) no-repeat;}
+.lg_icon2{background:url(../../Img/ImgLogin/ewfesckzsew_13x14.png) no-repeat;}
+.lg_remenber{height:16px;line-height:16px;color:#999;clear:both;}
+.lg_remenber input{float:left;margin:2px 3px 0 0; }
+.lg_login{clear:both;padding-top:10px;overflow:hidden;}
+.lg_sub{float:left;width:142px;height:36px;background:url(../../Img/ImgLogin/bhstcugfjeg5sckzsew_142x128.png) no-repeat 0 0;cursor:pointer;}
+input.lg_sub::-moz-focus-inner{border:0;}/*ff下面点击默认的虚线框*/
+.lg_foret{float:left;line-height:36px;margin-left:15px;color:#666;}
+.lg_foret:hover{color:#000;text-decoration:none;}
+.newregister{margin-left:5px;}
+.copyright{margin:0 auto;width:900px;clear:both;}
+.copyright p{text-align:center;color:#999;line-height:22px;padding-top:6px;}
+
+/* 去掉input的背景色 */
+input:-webkit-autofill { 
+-webkit-box-shadow: 0 0 0px 1000px #ffffff inset; 
+}

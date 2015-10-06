@@ -1,0 +1,9 @@
+.page ul{
+	list-style-type:none;
+}
+.page li{display:inline;margin-left:5px;}
+
+#vcb_dialog ul{
+	list-style-type:none;
+}
+#vcb_dialog li{display:inline;margin-left:5px;}

@@ -1,0 +1,32 @@
+.topbar_head{height:38px;width:100%;border-bottom:1px solid #e5e5e5;background:#f2f2f2;}
+.w960_head{width:960px;margin:0 auto;position:relative;}
+.topbar_head_left{float:left;height:38px;}
+.topbar_index{display:inline-block;height:38px;line-height:38px;color:#666;padding-left:20px;background:url(../../Img/Public/zhuye.png) no-repeat 0 11px;}
+.topbar_status{float:right;}
+.topbar_status li{float:right;padding:0 16px;}
+.topbar_status li a{line-height:38px;display:inline-block;height:38px;color:#666;}
+.topbar_status li.topbar_status_myorder a{background:url(../../Img/Public/globalheader.png) no-repeat 0px -25px;padding-left:18px;}
+.topbar_status li.topbar_status_mycart a{background:url(../../Img/Public/globalheader.png) no-repeat -14px -103px;padding-left:24px;}
+
+.topbar_status li.topbar_status_line{border-right:1px solid #ccc;width:0;height:18px;margin-top:11px;padding:0;}
+.topbar_status_mycart span{color:#f69;}
+.topbar_status_message{position:relative;}
+/*.topbar_status_mes_tip{display:inline-block;height:16px;line-height:16px;padding-right:10px;background:url(../../Img/Public/globalheader.png) no-repeat 28px -68px;}*/
+.topbar_status li.topbar_status_message,.topbar_status li.topbar_status_user{padding:0;}
+.topbar_status li.topbar_status_message a.topbar_status_mes_tip{padding:0 26px;background:url(../../Img/Public/globalheader.png) no-repeat 53px -57px;}
+.topbar_status li.topbar_status_user a.topbar_status_uesername{padding:0 26px;background:url(../../Img/Public/globalheader.png) no-repeat 80px -58px;}
+
+/*.topbar_status_mes_info{background:#fff;width:120px;position:absolute;top:27px;left:-12px;border:1px solid #E5E5E5;z-index:999;border-top:none;padding-top:5px;padding-bottom:12px;}*/
+.topbar_status_mes_info a{display:block;line-height:16px;padding:5px 0;text-align:left;padding-left:12px;}
+.topbar_status_user{position:relative;}
+.topbar_status_user_info{background:#fff;width:80px;position:absolute;top:39px;left:23px;border:1px solid #E5E5E5;z-index:999;border-top:none;}
+.topbar_status_mes_info{background:#fff;width:78px;position:absolute;top:39px;left:0px;border:1px solid #E5E5E5;z-index:999;border-top:none;}
+
+.topbar_status li div.topbar_status_user_info a{height:30px;line-height:30px;display:block;padding:1px 0 1px 10px;}
+.topbar_status li div.topbar_status_mes_info a{height:30px;line-height:30px;display:block;padding:1px 0 1px 10px;}
+.topbar_contry{float:right;margin-left:20px;height:38px;}
+.topbar_cn,.topbar_th,.topbar_usa{float:left;display:inline-block;height:38px;background-image:url(../../Img/Public/globalheader.png);color:#666;width:28px;margin-right:8px;background-repeat:no-repeat;background-position:-40px -68px;}
+.topbar_th{background-position:-95px -41px;}
+.topbar_usa{background-position:-91px 9px;}
+.topbar_status_user_info a.on,.topbar_status_mes_info a.on{color:#f69;background:#f8f5f5;}/*对与消息和用户名的下拉框，当鼠标移上去的时候的状态*/
+.topbar_status_register a,.topbar_status_login a{color:#666;}/*在没有登陆的情况*/

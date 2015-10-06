@@ -1,0 +1,13 @@
+
+.foot{background:#FBFBFB;padding-bottom:10px;border-top:1px solid #dedddd;}
+.foot_wrap{padding-top:30px;}
+.foot_info{height:120px;}
+.info_text{float:left;width:270px;}
+.tel_icon{font-family:Arial;color:#666;font-weight:;background:url(../../Img/Public/tel24x17.png) no-repeat 0 2px;padding-left:32px;margin-bottom:3px;font-size:16px;}
+.tel,.email{margin-left:32px;font-size:14px;color:#666;font-family:Arial;}
+.foot_link{float:left;margin-left:70px;}
+.company{float:left;margin-right:100px;}
+.company dt{color:#333;font-weight:bold;padding-bottom:6px;}
+.company dd{line-height:22px;}
+.company dd a{color:#666;}
+.copyright{height:30px;color:#999;text-align:center;line-height:30px;}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,span,ul,li,a,img,input,select,option,textarea,p,h1,dl,dt,dd,h2,h3,h4,h6,ol{margin:0;padding:0;list-style:none;border:none;}
+a{text-decoration:none;}
+body{font:12px/1.6 tahoma,arial,sans-serif;color:#2a2a2a;}/* CSS Document */
+
+#body_wrap{width:900px;margin:0 auto;}
+.rg_logo{padding:27px 0 33px 0;}
+.logo_img{display:inline-block;}
+
+.rg_bd{width:588px;height:300px;border:1px solid #dcdcdc;padding:200px 0 0 310px;}
+.rg_tip{height:26px;line-height:26px;font-weight:600;color:#323232;padding-left:32px;background:url(../../images/home/imgRegisterSucceed/successfjgitrhr26x26.png) no-repeat;font-size:16px;}
+.rg_tip span{color:#ff5783;}
+.goto_shopping{margin-top:20px;}
+.yanzheng{display:inline-block;width:121px;float:left;color:#fff;text-align:center;line-height:35px;background:#ff5683;font-size:14px;border-radius:3px;}
+.once{line-height:36px;color:#999;padding-left:18px;text-decoration:none;display:inline-block;}
+.once span{width:14px;display:inline-block;text-align:center;}
+
+
+
+

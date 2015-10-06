@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0;}
+body{font:12px tahoma,arial,sans-serif;}
+.change_language{height:18px;width:100%;padding-top:20px;}
+.w900{width:900px;margin:0 auto;}
+.change_language a{display:inline-block;width:28px;height:18px;float:right;margin-left:10px;}
+.change_language a.usa{background:url(../../Img/Public/u.png) no-repeat 1px 1px;}
+.change_language a.th{background:url(../../Img/Public/t.png) no-repeat 1px 1px;}
+.change_language a.cn{background:url(../../Img/Public/c.png) no-repeat 1px 1px;}

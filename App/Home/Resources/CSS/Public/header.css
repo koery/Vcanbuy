@@ -1,0 +1,52 @@
+/* CSS Document */
+/***************************** 顶栏******************** */
+#header{height:38px;width:100%;border-bottom:1px solid #e5e5e5;background:#f2f2f2;}/****header高36px*************** */
+.w1200{width:1200px;margin:0 auto;position:relative;}
+.header_left{float:left;}
+.index{float:left;display:inline-block;height:18px;line-height:18px;color:#666;padding-left:18px;margin-top:10px;background:url(../../Img/ImgIndex/dsgverh.png) no-repeat 0 2px;margin-right:42px;}
+.status{float:right;}
+.status li{float:right;line-height:16px;display:inline-block;height:16px;margin-top:11px;}
+.myorder{padding-left:20px;background:url(../../Img/ImgIndex/mls_global140607.png) no-repeat -223px -44px;}
+.myorder a,.cart a,.message a,.user a{color:#666;}
+.status li.line{border-right:1px solid #ccc;margin-right:16px;margin-left:20px;width:0;height:18px;margin-top:11px;}
+.cart{padding-left:27px;background:url(../../Img/ImgIndex/mls_global140607.png) no-repeat 0px -162px;}
+.cart span{color:#f69;}
+.message{position:relative;}
+.mes_tip{display:inline-block;height:16px;line-height:16px;padding-right:10px;background:url(../../Img/ImgIndex/mls_global140607.png) no-repeat -55px -87px;}
+.mes_info{background:#fff;width:120px;position:absolute;top:27px;left:-12px;border:1px solid #E5E5E5;z-index:999;border-top:none;padding-top:5px;padding-bottom:12px;}
+.mes_info a{display:block;line-height:16px;padding:5px 0;text-align:left;padding-left:12px;}
+.user{position:relative;}
+.uesername{padding-right:10px;background:url(../../Img/ImgIndex/mls_global140607.png) no-repeat -27px -87px;}
+.user_info{background:#fff;width:120px;position:absolute;top:27px;left:-12px;border:1px solid #E5E5E5;z-index:999;border-top:none;padding-top:5px;padding-bottom:12px;}
+.user_info a{display:block;line-height:16px;padding:5px 0;text-align:left;padding-left:12px;}
+.contry{float:right;margin-right:50px;margin-left:10px;}
+.cn,.th{float:left;display:inline-block;height:20px;background:url(../../Img/ImgIndex/c.png) no-repeat;margin-top:11px;color:#666;width:28px;margin-right:8px;}
+.th{background:url(../../Img/ImgIndex/t.png) no-repeat;}
+.user_info a.on,.mes_tip a.on{color:#f69;background:#f8f5f5;}/*对与消息和用户名的下拉框，当鼠标移上去的时候的状态*/
+.my_register a,.my_login a{color:#666;}/*在没有登陆的情况*/
+/***********search******************** */
+.search{padding:25px 0 0px;}
+
+
+
+/* 去掉input的背景色 */
+input:-webkit-autofill { 
+-webkit-box-shadow: 0 0 0px 1000px #ffffff inset; 
+}
+/* 去掉input点击时的边框颜色*/
+input{
+    background:no-repeat 0 0 scroll ＃EEEEEE;
+    border:none;
+    outline:medium;
+}
+
+
+.logo_bg{float:left;width:510px;background:url(../../Img/ImgIndex/pandabg.png) no-repeat right bottom;height:82px;}
+.logo{float:left;display:inline-block;width:206px;height:54px;}
+.s_bg{float:left;margin-top:10px;margin-left:-20px;}
+.s_wrap{display:inline-block;width:340px;height:34px;border:2px solid #ff4465;background:#fff;float:left;}
+.s_text{float:left;width:330px;line-height:20px;padding:7px 0px;padding-left:10px;color:#c6c4c4;}
+.btn{display:inline-block;width:62px;height:38px;background-color:#ff4465;text-align:center;line-height:38px;float:left;color:#fff;font-size:14px;font-weight:600;background-image:url(../../Img/ImgIndex/zoom.png);background-position:center center;background-repeat:no-repeat;}
+.mycart{float:right;margin:14px 90px 0 0;}
+.mycart a{display:inline-block;height:40px;padding-left:50px;background-image:url(../../Img/ImgIndex/cart.png);color:#999;width:90px;border:1px solid #dedede;box-shadow:0px 0px 2px rgba(0, 0, 0, 0.2);background-repeat:no-repeat;background-position:5px 8px;line-height:40px;}
+.mycart b{display:inline-block;padding:0 3px;color:#f69;text-align:center;}

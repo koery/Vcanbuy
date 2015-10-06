@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,span,ul,li,a,img,input,select,option,textarea,p,h1,dl,dt,dd,h2,h3,h4,h6,ol,table,td,th,tr,tfoot,thead,tbody{margin:0;padding:0;list-style:none;border:none;}
+a{text-decoration:none;}
+body{font:12px/1.6 tahoma,arial,sans-serif;color:#666;}
+.clearfix:after{display:block;content:".";clear:both;font-size:0;height:0;visibility:hidden;}
+/* 支付界面w是960px; */
+/***************************** 顶栏******************** */
+.w960{width:960px;margin:0 auto;}
+/**********步骤************** */
+.pay_header{width:960px;margin:8px auto 6px;height:60px;background:#fff;}
+.con_logo{float:left;display:inline-block;width:260px;height:54px;}
+.status{float:right;width:550px;padding-top:6px;}
+.process{padding-left:5px;}
+.process li{float:left;background:#fff;height:30px;}
+.process li span{display:block;float:left;height:30px;width:30px;background:#87bd34;border-radius:50%;color:#fff;line-height:30px;text-align:center;font-size:20px;}
+.process li div{float:left;width:130px;height:4px;margin-top:13px;background:#c9c9c9;}
+.process .step1 div{background:#87bd34;}
+.process .step2 span{background:#87bd34;}
+.process .step2 div{background:#87bd34;}
+.process .step3 span{background:#87bd34;}
+.process .step3 div{background:#87bd34;}
+.process .step4 span{background:#ccc;}
+.status_text{padding-top:2px;}
+.status_text span{display:inline-block;line-height:20px;margin-right:123px;color:#bfbfbf;text-align:center;}
+.status_text span.status_text_two{margin-right:117px;}
+.status_text span.status_text_three{margin-right:132px;}
+.status_text span.nomargin{margin-right:0px;}
+.status_text span.status_text_one,.status_text span.status_text_two,.status_text span.status_text_three{color:#87BD34;}
+/**********订单信息************** */
+.container{background:#F2F0F0;overflow:hidden;border-top:30px solid #f69;}
+.myorder{background:#fff;border:1px solid #e6e6e6;margin:30px 0;}
+.order_wrap{position:relative;border-bottom:1px dashed #e6e6e6;}
+.o_title{float:left;width:670px;height:26px;line-height:26px;padding:40px 0 28px 30px;font-size:18px;font-family:"Microsoft Yahei";color:#333;}
+.o_right{float:left;width:190px;padding:40px 30px 8px 0px;}
+.o_price{line-height:26px;margin-bottom:2px;text-align:right;font-family:Arial;font-size:14px;}
+.o_price em{font-style:normal;}
+.o_price strong{font-size:24px;color:#f69;vertical-align:bottom;padding-right:5px;}
+.o_detail{line-height:18px;text-align:right;}
+.o_detail a{display:inline-block;color:#666;padding-right:12px;position:relative;font-size:14px;}
+.o_detail i{position:absolute;display:block;width:7px;height:4px;background:url(../../Img/ImgPay/gqyde_7x26.png) no-repeat;right:1px;top:8px;}
+.o_clr{clear:both;overflow:hidden;display:block;line-height:0;font-size:0;}
+.o_list{margin:0 30px;border-top:1px solid #ddd;padding:12px 0 25px;}
+.o_list p{line-height:24px;}
+table{border:0;border-collapse:collapse;border-spcing:0;}
+tbody{vertical-align:middle;dispaly:table-row-group;line-height:26px;}
+th{vertical-align:top;text-align:left;font-style:normal;font-weight:500;}
+td{vertical-align:top;width:830px;}
+
+
+.pay{padding:40px 30px 30px 30px;background-color:#fff;color:#333;}
+.count{line-height:26px;margin:12px 0 26px 0;}
+.payment{font-weight:600;padding-left:26px;font-size:18px;font-family:"Microsoft Yahei";font-weight:400;background:url(../../Img/ImgPay/bag18x21.png) no-repeat 0 1px;padding-right:26px;vertical-align:top;}
+.ui_label{font-size:14px;line-height:28px;display:block;margin-bottom:6px;color:#666;}
+.psd{padding:60px 0 2px 0;}
+.balance{font-size:14px;color:#666;}
+.balance span{font-size:24px;vertical-align:bottom;padding-right:6px;}
+.psd_containter input{float:left;line-height:26px;border:1px solid #D2D2D2;border-radius:3px;width:190px;padding:0 5px;font-size:12px;font-family:Verdana;}
+.psd_containter span{float:left;line-height:26px;padding-left:5px;color:#3366cc;}
+.orderFoot{margin-top:40px;padding:20px 0;margin-bottom:15px;}
+.J_sumbit{display:inline-block;width:152px;height:46px;line-height:46px;color:#fff;background:#FF5683;text-align:center;font-size:20px;font-family:"微软雅黑";float:lleft;}
+.money{float:right;line-height:46px;padding-right:20px;}
+.money span{display:inline-block;}
+.moner_num{font-size:18px;color:#f69;font-weight:600;vertical-align:top;}
+
+
+.tips{color:#333;line-height:24px;}
+.tips1{color:#3366cc;}
+.tips2{color:#f69;line-height:24px;}
+.tips3{color:#f69;line-height:24px;}
+/***success*******/
+.light_box_bg{width:100%;height:100%;position:fixed;top:0;left:0;background-color:#000;opacity:0.3;z-index:9998;}
+.light_box{width:390px;height:260px;position:absolute;background-color:#fff;z-index:10000;top:235px;left:514px;}
+.title{padding:0 10px;height:40px;position:relative;}
+.title_close{display:block;width:23px;height:23px;position:absolute;top:15px;right:30px;background:url(../../Img/ImgPay/meyde_23x23.png) no-repeat;}
+.content_wrap:after{display:block;content:".";clear:both;font-size:0;height:0;visibility:hidden;}
+.content{padding:20px 80px 0;max-width:228px;}
+.success_tips h3{color:#333;text-align:center;}
+.action{text-align:center;margin-top:52px;}
+.action a{display:inline-block;width:100px;height:32px;line-height:32px;margin:0 4px;font-weight:bold;}
+.primary{background:#f36;color:#fff;border:1px solid #f36;}
+.cancel{border:1px solid #e5e6e8;color:#666;}
+.more{padding-top:42px;}
+.tag{color:#999;text-align:center;}
+.question,.admin{color:#999;}
+.line{display:inline-block;margin:0 4px;}
+
+/*修改鼠标指正形状*/
+.tips1,.forgetPayPwd{cursor:pointer;}
+
+

@@ -1,0 +1,26 @@
+.w980{width:980px;margin:0 auto;position:relative;}
+.header_search{padding:25px 0 0px;}
+.header_search_logo_bg{float:left;width:510px;background:url(../../Img/Public/pandabg.png) no-repeat right bottom;height:82px;}
+.header_search_logo{float:left;display:inline-block;width:206px;height:54px;}
+.header_searchBox{float:left;margin-top:10px;margin-left:-20px;}
+.searchText_wrap{display:inline-block;width:340px;height:34px;border:2px solid #ff4465;background:#fff;float:left;}
+.header_search_text{float:left;width:330px;line-height:20px;padding:7px 0px;padding-left:10px;color:#c6c4c4;}
+.header_searchBox_btn{display:inline-block;width:62px;height:38px;background-color:#ff4465;text-align:center;line-height:38px;float:left;color:#fff;font-size:14px;font-weight:600;background-image:url(../../Img/Public/zoom.png);background-position:center center;background-repeat:no-repeat;}
+.mycart{float:right;margin:14px 90px 0 0;}
+.mycart a{display:inline-block;height:40px;padding-left:50px;background-image:url(../../Img/Public/cart.png);color:#999;width:90px;border:1px solid #dedede;box-shadow:0px 0px 2px rgba(0, 0, 0, 0.2);background-repeat:no-repeat;background-position:5px 8px;line-height:40px;}
+.mycart b{display:inline-block;padding:0 3px;color:#f69;text-align:center;}
+/**********nav************** */
+.nav_warp{width:100%;color:#fff;font-size:14px;z-index:500;position:relative;clear:both;}
+.nav{box-shadow:0px 2px 2px rgba(0,0,0,0.5);background-image:url(../../Img/Public/nav_new_line.jpg);height:38px;width:100%;background-color:#fff;background-repeat:repeat-x;}
+.nav_list{padding-left:6px;}
+.nav_list li{float:left;line-height:38px;margin-right:10px;position:relative;}
+.nav_list li.first{background:#ff4465;}
+.category{color:#fff;display:inline-block;line-height:38px;padding:0 32px;}
+.detail_list{width:720px;position:absolute;z-index:100001;background:#fff;box-shadow:1px 1px 7px rgba(0,0,0,0.3);top:38px;left:98px;}
+.detail_list b{width:10px;height:8px;position:absolute;z-index:100002;display:inline-block;background:url(../../Img/Public/up.png);top:-8px;left:48px;}
+.detail{padding:18px 10px 5px 20px;}
+.item_cloth{line-height:24px;padding-bottom:16px;}
+.item_cloth dt{font-family:"微软雅黑";width:80px;text-align:left;float:left;line-height:24px;padding-top:5px;}
+.item_cloth dt a{color:#333;}
+.item_cloth dd{font-size:12px;margin-left:80px;word-break:break-all;padding:0 5px; }
+.item_cloth dd a{color:#999;padding:2px 24px;padding-left:0;line-height:24px;display:inline-block;}
